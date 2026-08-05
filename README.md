@@ -233,27 +233,3 @@ Yes! Astera Studio is built with Vite and clean SPA architecture, making it 100%
 </details>
 
 ---
-
-## ✦ Contributing
-
-We welcome contributions from developers who care about code quality, craftsmanship, and developer experience.
-
-Please review our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting pull requests.
-
-```bash
-# Verify strict typecheck and production build locally
-npx tsc --noEmit
-npm run build
-```
-
----
-
-## ✦ Corporate Sponsors & Ecosystem Backers
-
-<div align="center">
-
-  Crafted with precision by the founding engineering team of **Astera**.
-
-  Distributed under the [MIT License](LICENSE).
-
-</div>

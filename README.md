@@ -250,20 +250,6 @@ npm run build
 
 ## ✦ Corporate Sponsors & Ecosystem Backers
 
-Astera is supported by forward-thinking engineering organizations and individual open-source backers.
-
-<div align="center">
-  <br />
-  <a href="https://github.com/sponsors/astera-dev">
-    <img src="https://img.shields.io/badge/Sponsor_Astera-GitHub_Sponsors-rose.svg?style=for-the-badge&logo=github" alt="Sponsor Astera" />
-  </a>
-  <br />
-  <br />
-  <sub>Become a sponsor to support the development of open-source developer tools.</sub>
-</div>
-
----
-
 <div align="center">
 
   Crafted with precision by the founding engineering team of **Astera**.

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 9 10 15;
+    --color-surface: 17 19 27;
+    --color-card: 22 25 36;
+    --color-border: 39 45 64;
+    --color-accent: 79 70 229;
+  }
+
+  body {
+    background-color: #090a0f;
+    color: #f1f5f9;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom high-precision scrollbars */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #272d40;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3b4460;
+  }
+
+  /* WCAG focus outline styles */
+  *:focus-visible {
+    outline: 2px solid #6366f1 !important;
+    outline-offset: 2px !important;
+  }
+}
+
+@layer utilities {
+  .astera-glass {
+    background: rgba(17, 19, 27, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .astera-glow-border {
+    box-shadow: 0 0 0 1px rgba(99, 102, 241, 0.3), 0 0 15px -3px rgba(99, 102, 241, 0.2);
+  }
+}

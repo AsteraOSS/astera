@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#090A0F"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" stroke="#272D40" stroke-width="3"/>
+  <path d="M50 20L62 38L82 42L67 56L71 76L50 65L29 76L33 56L18 42L38 38L50 20Z" fill="url(#astera_grad)" stroke="#6366F1" stroke-width="2"/>
+  <defs>
+    <linearGradient id="astera_grad" x1="50" y1="20" x2="50" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+</svg>
